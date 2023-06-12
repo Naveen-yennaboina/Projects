@@ -1,0 +1,99 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <title>Resume</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static "stylesheets/bootstrap/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "stylesheets/user-defined/resume.css" %}" />
+    <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js " %}"></script>
+    <script src="{% static "stylesheets/bootstrap/FontAwesomeKit.js" %}"></script>
+    <style type="text/css">
+        body{
+            background-image: url("{% static "images/martin-adams-YA-DFlSzXBE-unsplash.jpg" %}");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed; 
+            height: 100%;
+            margin: 0;
+        }
+        html{
+        height: 100%;
+        margin: 0;}
+    </style>
+  </head>
+  <body>
+    <!-----------------------Navigation Bar-------------------->
+    <div class="bg">
+      <div class="cover-container w-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+           <div>
+              <h3 class="float-md-start text-center mb-3" style="color: #ff3b05;">Naveen Yennaboina</h3>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                 <a class="nav-link" href="/">Home</a>
+                 <a class="nav-link" href="#">Education</a>
+                 <a class="nav-link" href="/projects/Projects/">Projects</a>
+                 <a class="nav-link active" aria-current="page" href="#">Resume</a>
+                 <a class="nav-link" href="/contact/Contact/">Contact</a>
+              </nav>
+           </div>
+        </header>
+      </div>
+    <!-----------------------End Of Navigation Bar------------->
+
+    <!-----------------------Main Start------------------------>
+    
+    <div class="container-fluid mt-sm-5">
+      <div class="container">
+        <br/><br/>
+        <h1 class="display-3" style="color:coral;"><b>Resume</b></h1>
+        <br/>
+        <h2 class="mb-3">Career Objective</h2>
+        <p class="lh-base fs-4">Looking forward to place myself in an enivermint that can Translate me into a full-fledged professional one.</p>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <div class="hello">
+          <h2 style="color: coral;" class="text-center">Download Resume</h2>
+          <br/><br/>
+          <p class="lh-sm-base fs-4 text-center">Naveen-Resume.docx  -  <a id="ancer" href="{% static "images/Naveen-Resume.docx " %}" download="Naveen-Resume.docx">Download</a></p><br/>
+          <p class="lh-sm-base fs-4 text-center">Naveen-Resume.pdf  -  <a id="ancer" href="{% static "images/Naveen-Resume.pdf" %}" download="Naveen-Resume.pdf" target="_blank">Download</a></p>
+        </div>
+            
+      </div>
+    </div>
+    </div>
+    <br/><br/>
+    <!-----------------------Main End-------------------------->
+    <br/><br/><br/>
+
+    <footer class="mastfoot mt-auto p-3 bg-dark">
+      <div class="inner text-center pt-3">
+        <p class="text-white">
+          <a class="text-white" href="/"><i class="fas fa-home"></i>  Home</a>&nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/education/Education"><i class="fas fa-book-open"></i> Education </a>&nbsp;&nbsp;&nbsp;
+          <a class="text-white" href="/projects/Projects/"><i class="fas fa-project-diagram"></i>  Projects</a>
+        </p>
+      </div>
+      <div class="inner text-center">
+        <p class="text-white">
+          <a class="text-white" href="/contact/Contact/"><i class="fas fa-envelope"></i> Contact</a>
+        </p>
+      </div>
+    </footer>
+
+       
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static "stylesheets/bootstrap/jquery-3.3.1.slim.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/popper.min.js" %}"></script>
+    <script src="{% static "stylesheets/bootstrap/bootstrap.min.js"%}"></script>
+  </body>
+</html>  
